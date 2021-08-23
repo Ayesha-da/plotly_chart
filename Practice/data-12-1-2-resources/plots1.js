@@ -1,0 +1,1 @@
+Plotly.newPlot("plotArea",[{x:[5,10,15,20],y:[2,4,6,8]}]);
