@@ -10,7 +10,8 @@ function init() {
         .text(sample)
         .property("value", sample);
     });
-})}
+});
+}
 
 init();
 function optionChanged(newSample) {
@@ -25,12 +26,9 @@ function buildMetadata(sample) {
     var PANEL = d3.select("#sample-metadata");
 
     PANEL.html("");
-    PANEL.append("h6").text(result.id);
-    PANEL.append("h6").text(result.ethnicity);
-    PANEL.append("h6").text(result.gender);
-    PANEL.append("h6").text(result.age);
-    PANEL.append("h6").text(result.location);
-    PANEL.append("h6").text(result.bbtype);
-    PANEL.append("h6").text(result.wfreq);
+    Object.entries(result).forEach(([key, value]) => {
+      PANEL.append("h6").text(`${key.toUpperCase()}:    ${value}`);
+    });
+
   });
 }
