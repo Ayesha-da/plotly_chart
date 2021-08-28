@@ -1,5 +1,5 @@
 .jumbotron {
-   
+    
     background-size: 100% 100%;
   background-repeat: no-repeat;
   height:340px;
@@ -18,3 +18,25 @@
     background-image: linear-gradient(to bottom right, #eeb87a, #7984a7, #c7abbc, rgb(155, 118, 104));
   
   }
+  /* Add a black background color to the top navigation */
+
+.topnav {
+  background-color: rgb(56, 55, 55) !important;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
