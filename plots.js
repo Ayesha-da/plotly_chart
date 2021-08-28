@@ -99,7 +99,7 @@ function buildCharts(sample) {
     Plotly.newPlot("bar", barData, barLayout);
 
 
-// DELIVERABLE 2 Requirements
+
 // Create a Bubble Chart
 
 
@@ -127,8 +127,8 @@ function buildCharts(sample) {
     // 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", bubbleData, bubbleLayout)
 
-// DELIVERABLE 3 Requirements
-// Create a Gauge Chart
+
+    // Create a Gauge Chart
 
     // 1. Create a variable that filters the metadata array for the object with the desired sample number.
     var metadata = data.metadata;
