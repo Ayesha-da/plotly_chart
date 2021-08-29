@@ -20,8 +20,10 @@
   }
   /* Add a black background color to the top navigation */
 
-.topnav {
-  background-color: #333; !important;
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
 }
 
 /* Style the links inside the navigation bar */
