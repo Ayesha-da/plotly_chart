@@ -13,6 +13,9 @@
   bottom:5px;
   font-size:20px;
   }
+.topnav {
+  background-color: #333; !important
+}
 
   body {
     background-image: linear-gradient(to bottom right, #eeb87a, #7984a7, #c7abbc, rgb(155, 118, 104));
@@ -20,9 +23,6 @@
   }
   /* Add a black background color to the top navigation */
 
-.topnav {
-  background-color: #333; !important
-}
 
 
 /* Style the links inside the navigation bar */
